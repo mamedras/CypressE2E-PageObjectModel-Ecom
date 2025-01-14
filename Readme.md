@@ -53,11 +53,12 @@ This suite covers essential e-commerce scenarios, including:
 To execute the automated tests:
 
 1. **Clone the repository**:
-
    ```sh
    git clone <repository_url>
    cd project-root
 2. **Install dependencies**:
-   npm install
-3.**Start Cypress:**:
-   npx cypress run
+   ```sh
+      npm install
+3. **Start Cypress:**:
+    ```sh
+       npx cypress run
