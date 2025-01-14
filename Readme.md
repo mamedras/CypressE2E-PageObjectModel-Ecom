@@ -18,8 +18,6 @@ The project is organized as follows:
 - **Add_to_Cart.cy.js**: Test cases for adding items to the cart.
 - **Contact_Ecom.cy.js**: Test cases for the contact form.
 - **LoginTest.cy.js**: Test cases for the login functionality.
-### support
-- **commands.js**: Custom commands for Cypress.
 ### README.md 
 - The main documentation file for the project.
 ## Key Features
