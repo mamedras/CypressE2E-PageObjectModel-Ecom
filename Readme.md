@@ -1,7 +1,13 @@
-Automating www.demoblaze.com with Cypress and Page Object Model
-This repository demonstrates end-to-end (E2E) automation of a demo e-commerce website (www.demoblaze.com) using Cypress and the Page Object Model (POM).
+# E2E Automation of Demo E-commerce Website with Cypress and Page Object Model (POM)
 
-Project Structure
+## Introduction
+
+This project demonstrates end-to-end (E2E) automation of the [DemoBlaze e-commerce website](https://www.demoblaze.com) using Cypress and the Page Object Model (POM).
+
+## Project Structure
+
+The project is organized as follows:
+
 project-root/
 ├── cypress/
 │   ├── fixtures/
@@ -20,15 +26,15 @@ project-root/
 │   └── support/
 │       └── commands.js
 └── README.md
-Key Features
+## Key Features
 Automated testing of various e-commerce functionalities
 Utilizes Cypress for robust E2E testing framework
 Implements Page Object Model for improved maintainability and readability
-Technologies Used
+## Technologies Used
 Cypress: JavaScript-based end-to-end testing framework
 Page Object Model (POM): Design pattern for organizing test elements and actions
 www.demoblaze.com: Demo e-commerce website for testing purposes
-Testing Capabilities
+## Testing Capabilities
 This suite covers essential e-commerce scenarios, including:
 
 login page form and contact form 
