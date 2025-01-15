@@ -45,7 +45,6 @@ This suite covers essential e-commerce scenarios, including:
 
 - **Modular design** using POM for better organization and reusability
 - **Separation of concerns** between page objects and test scripts
-- **Use of Cypress commands** for common actions
 - **Parameterized tests** for flexibility in test data
 
 # Running Tests
