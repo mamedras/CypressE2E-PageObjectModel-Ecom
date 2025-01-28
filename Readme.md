@@ -7,8 +7,8 @@ This project demonstrates end-to-end (E2E) automation of the DemoBlaze e-commerc
 # Project Structure
  ```sh
 CypressE2E-PageObjectModel-Ecom/
-│── cypress/
-│   ├── e2e/
+│── fixtures
+│   ├── integration/
 │   │   ├── TestCases/
 │   │   │   ├── Add_to_Cart.cy.js         # Test cases for adding items to the cart
 │   │   │   ├── Contact_Ecom.cy.js        # Test cases for the contact form
@@ -20,10 +20,8 @@ CypressE2E-PageObjectModel-Ecom/
 │   │   │   ├── Login.js                  # Login functionality methods
 │   │   ├── Setup/
 │   │   │   ├── HomePage.js               # Methods for interacting with the homepage
-│   ├── support/
-│   ├── fixtures/
-│   ├── cypress.config.js                  # Cypress configuration file
-│── package.json                            # Project dependencies
+│   ├── support/                          # Cypress support files (commands and utilities)
+│   ├── cypress.config.js                   # Cypress configuration file
 │── README.md                               # Project documentation
 ```
 
@@ -67,6 +65,6 @@ Follow these steps to set up and execute the test suite:
 3. 3️⃣ Run Cypress Test Runner:
     ```sh
     Run tests in the interactive Cypress UI
-       npx cypress open
+    npx cypress open
     Run tests in headless mode
     npx cypress run
