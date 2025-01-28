@@ -63,8 +63,11 @@ Follow these steps to set up and execute the test suite:
    ```sh
       npm install
 3. 3️⃣ Run Cypress Test Runner:
-    ```sh
-    Run tests in the interactive Cypress UI
+ Run tests in the interactive Cypress UI
+     ```sh
     npx cypress open
-    Run tests in headless mode
+     ```
+ Run tests in headless mode
+ ```sh
     npx cypress run
+```
