@@ -1,63 +1,71 @@
-# E2E Automation of Demo E-commerce Website with Cypress and Page Object Model (POM)
+# 🛒 E2E Automation of Demo E-commerce Website with Cypress and Page Object Model (POM)
 
-## Introduction
+# 📌 Introduction
 
-This project demonstrates end-to-end (E2E) automation of the [DemoBlaze e-commerce website](https://www.demoblaze.com) using Cypress and the Page Object Model (POM).
+This project demonstrates end-to-end (E2E) automation of the DemoBlaze e-commerce website using Cypress and the Page Object Model (POM) for better maintainability and readability of test scripts.
 
-## Project Structure
+# Project Structure
 
-The project is organized as follows:
-### PageObjectModel
-- **AddToCart.js**: Methods and properties for adding items to the cart. 
-- **Assert.js**: Custom assertions for test validations. 
-- **Contact.js**: Methods for interacting with the contact form. 
-- **Login.js**: Methods for handling the login functionality.
-### Setup 
-- **HomePage.js**: Methods and properties for the home page.
-### TestCases 
-- **Add_to_Cart.cy.js**: Test cases for adding items to the cart.
-- **Contact_Ecom.cy.js**: Test cases for the contact form.
-- **LoginTest.cy.js**: Test cases for the login functionality.
-### README.md 
-- The main documentation file for the project.
-# Key Features
+CypressE2E-PageObjectModel-Ecom/
+│── cypress/
+│   ├── e2e/
+│   │   ├── TestCases/
+│   │   │   ├── Add_to_Cart.cy.js         # Test cases for adding items to the cart
+│   │   │   ├── Contact_Ecom.cy.js        # Test cases for the contact form
+│   │   │   ├── LoginTest.cy.js           # Test cases for login functionality
+│   │   ├── PageObjectModel/
+│   │   │   ├── AddToCart.js              # Methods & locators for cart functionality
+│   │   │   ├── Assert.js                 # Custom assertions for test validations
+│   │   │   ├── Contact.js                # Methods for the contact form
+│   │   │   ├── Login.js                  # Login functionality methods
+│   │   ├── Setup/
+│   │   │   ├── HomePage.js               # Methods for interacting with the homepage
+│   ├── support/
+│   ├── fixtures/
+│   ├── cypress.config.js                  # Cypress configuration file
+│── package.json                            # Project dependencies
+│── README.md                               # Project documentation
 
-- Automated testing of various e-commerce functionalities
-- Utilizes Cypress for robust E2E testing framework
-- Implements Page Object Model for improved maintainability and readability
+# 🚀 Key Features
+
+✅ End-to-End Testing of an e-commerce platform using Cypress
+✅ Page Object Model (POM) for structured and maintainable test scripts
+✅ Automated User Flows, including login, adding products to cart, and checkout
+✅ Custom Assertions for precise test validations
 
 # Technologies Used
 
-- **Cypress**: JavaScript-based end-to-end testing framework
-- **Page Object Model (POM)**: Design pattern for organizing test elements and actions
-- **www.demoblaze.com**: Demo e-commerce website for testing purposes
+Cypress – JavaScript-based end-to-end testing framework
+Page Object Model (POM) – Improves test maintainability
+Node.js & npm – Package management
+# 🔍 Test Coverage
+The test suite includes the following e-commerce functionalities:
 
-# Testing Capabilities
+✅ User Authentication – Login and Logout validation
+✅ Contact Form – Testing form submission
+✅ Product Selection – Adding and removing items from the cart
+✅ Checkout Process – Validating order placement
 
-This suite covers essential e-commerce scenarios, including:
+# 💡 Best Practices Implemented
+✔ Modular Test Design – POM ensures easy maintenance
+✔ Separation of Concerns – Page objects handle UI elements separately from test cases
+✔ Reusable Components – Functions and assertions to avoid duplication
+# ▶️ Running the Tests
 
-- **Login page form and contact form**
-- **Product selection and addition to cart**
-- **Checkout process**
-- **Order confirmation**
+Follow these steps to set up and execute the test suite:
 
-# Best Practices Implemented
-
-- **Modular design** using POM for better organization and reusability
-- **Separation of concerns** between page objects and test scripts
-- **Parameterized tests** for flexibility in test data
-
-# Running Tests
-
-To execute the automated tests:
-
-1. **Clone the repository**:
+1. 1️⃣ Clone the Repository:
    ```sh
-   git clone <repository_url>
-   cd project-root
-2. **Install dependencies**:
+   git clone https://github.com/mamedras/CypressE2E-PageObjectModel-Ecom.git
+   cd CypressE2E-PageObjectModel-Ecom
+
+2. 2️⃣ Install Dependencies:
+
    ```sh
       npm install
-3. **Start Cypress:**:
+3. 3️⃣ Run Cypress Test Runner:
     ```sh
-       npx cypress run
+    Run tests in the interactive Cypress UI
+       npx cypress open
+    Run tests in headless mode
+    npx cypress run
