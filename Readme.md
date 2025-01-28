@@ -5,7 +5,7 @@
 This project demonstrates end-to-end (E2E) automation of the DemoBlaze e-commerce website using Cypress and the Page Object Model (POM) for better maintainability and readability of test scripts.
 
 # Project Structure
-
+ ```sh
 CypressE2E-PageObjectModel-Ecom/
 │── cypress/
 │   ├── e2e/
@@ -25,6 +25,7 @@ CypressE2E-PageObjectModel-Ecom/
 │   ├── cypress.config.js                  # Cypress configuration file
 │── package.json                            # Project dependencies
 │── README.md                               # Project documentation
+```
 
 # 🚀 Key Features
 
