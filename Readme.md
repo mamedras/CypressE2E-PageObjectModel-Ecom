@@ -39,10 +39,10 @@ Node.js & npm – Package management
 # 🔍 Test Coverage
 The test suite includes the following e-commerce functionalities:
 
-✅ User Authentication – Login and Logout validation
-✅ Contact Form – Testing form submission
-✅ Product Selection – Adding and removing items from the cart
-✅ Checkout Process – Validating order placement
+✅ **User Authentication** – Login and Logout validation
+✅ **Contact Form** – Testing form submission
+✅ **Product Selection** – Adding and removing items from the cart
+✅ **Checkout Process** – Validating order placement
 
 # 💡 Best Practices Implemented
 ✔ Modular Test Design – POM ensures easy maintenance
