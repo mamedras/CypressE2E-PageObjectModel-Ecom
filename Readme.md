@@ -24,14 +24,14 @@ CypressE2E-PageObjectModel-Ecom/
 │── README.md                               # Project documentation
 ```
 
-# 🚀 Key Features:
+# 🚀 Key Features
 
 **✅End-to-End:** Testing of an e-commerce platform using Cypress
 **✅Page Object Model (POM):** for structured and maintainable test scripts
-**✅Automated User Flows:**, including login, adding products to cart, and checkout
+**✅Automated User Flows:** including login, adding products to cart, and checkout
 **✅Custom Assertions:** for precise test validations
 
-# Technologies Used:
+# Technologies Used
 We utilize the following technologies in our project:
 **Cypress:** JavaScript-based end-to-end testing framework
 **Page Object Model (POM):** Improves test maintainability
@@ -45,9 +45,9 @@ The test suite includes the following e-commerce functionalities:
 **✅Checkout Process:** Validating order placement
 
 # 💡 Best Practices Implemented
-**✔Modular Test Design:** POM ensures easy maintenance
-**✔Separation of Concerns:**  Page objects handle UI elements separately from test cases
-**✔Reusable Components:** Functions and assertions to avoid duplication
+** ✔ Modular Test Design:** POM ensures easy maintenance
+** ✔ Separation of Concerns:**  Page objects handle UI elements separately from test cases
+** ✔ Reusable Components:** Functions and assertions to avoid duplication
 # ▶️ Running the Tests:
 
 Follow these steps to set up and execute the test suite:
