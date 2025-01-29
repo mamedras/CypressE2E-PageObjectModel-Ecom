@@ -45,9 +45,9 @@ The test suite includes the following e-commerce functionalities:
 ✅ **Checkout Process** – Validating order placement
 
 # 💡 Best Practices Implemented
-✔ **Modular Test Design** – POM ensures easy maintenance
-✔ **Separation of Concerns** – Page objects handle UI elements separately from test cases
-✔ **Reusable Components** – Functions and assertions to avoid duplication
+-- ✔ **Modular Test Design** – POM ensures easy maintenance
+-- ✔ **Separation of Concerns** – Page objects handle UI elements separately from test cases
+-- ✔ **Reusable Components** – Functions and assertions to avoid duplication
 # ▶️ Running the Tests
 
 Follow these steps to set up and execute the test suite:
